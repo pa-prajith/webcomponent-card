@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <style>
+body {
+    font-family: 'Arial';
+}
+.container {
+    width: 90vw;
+    margin: 0 auto;
+}
+h1 {
+    text-align: center;
+    color: #444444;
+}
+    </style>
+    <div className="container">
+        <h1>Web Components</h1>
+        <card-component name="John Cena" avatar="https://randomuser.me/api/portraits/men/1.jpg">
+            <div slot="email">john@cena.com</div>
+            <div slot="phone">444-444-4444</div>
+            <div slot="content">
+                <p>Adipisicing nulla perspiciatis voluptatibus ex error Distinctio dolorum sint obcaecati nisi veniam dicta, nulla! Et nemo minus assumenda earum voluptatum fugit Quasi laudantium minima odio doloremque voluptatem. Harum suscipit ipsa</p>
+                <p>Adipisicing nulla perspiciatis voluptatibus ex error Distinctio dolorum sint obcaecati nisi veniam dicta, nulla! Et nemo minus assumenda earum voluptatum fugit Quasi laudantium minima odio doloremque voluptatem. Harum suscipit ipsa</p>
+                <p>Adipisicing nulla perspiciatis voluptatibus ex error Distinctio dolorum sint obcaecati nisi veniam dicta, nulla! Et nemo minus assumenda earum voluptatum fugit Quasi laudantium minima odio doloremque voluptatem. Harum suscipit ipsa</p>
+            </div>
+        </card-component>
+        <card-component name="Jane Cena" avatar="https://randomuser.me/api/portraits/women/7.jpg">
+            <div slot="email">jane@cena.com</div>
+            <div slot="phone">777-777-7777</div>
+            <div slot="content">
+                <p>Adipisicing nulla perspiciatis voluptatibus ex error Distinctio dolorum sint obcaecati nisi veniam dicta, nulla! Et nemo minus assumenda earum voluptatum fugit Quasi laudantium minima odio doloremque voluptatem. Harum suscipit ipsa</p>
+                <p>Adipisicing nulla perspiciatis voluptatibus ex error Distinctio dolorum sint obcaecati nisi veniam dicta, nulla! Et nemo minus assumenda earum voluptatum fugit Quasi laudantium minima odio doloremque voluptatem. Harum suscipit ipsa</p>
+                <p>Adipisicing nulla perspiciatis voluptatibus ex error Distinctio dolorum sint obcaecati nisi veniam dicta, nulla! Et nemo minus assumenda earum voluptatum fugit Quasi laudantium minima odio doloremque voluptatem. Harum suscipit ipsa</p>
+            </div>
+        </card-component>
+    </div>
+    <script src="./card.js"></script>
+</body>
+</html>
